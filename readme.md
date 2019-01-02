@@ -1,3 +1,5 @@
+View Demo: https://codepen.io/awmiklovic/pen/OrxGez
+
 #Encoding Function
 This function needs to accept a signed integer in the 14-bit range [-8192..+8191] and return a 4 character string.
 
