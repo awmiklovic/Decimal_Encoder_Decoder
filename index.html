@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AlpcPart1</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <div id="content-wrap">
+    <div class="group">
+      <input id="inputDecimal" type="number" placeholder="Enter Decimal" oninput="changeHandler(this.value)"/>
+      <div class="output-group">
+        <label>Encoded Hex:</label>
+        <div id="outputEncoded"></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <input id="inputHex" type="text" placeholder="Enter Encoded Hex" oninput="hexChangeHandler(this.value)"/>
+      <div class="output-group">
+        <label>Decoded Decimal:</label>
+        <div id="outputDecoded"></div>
+      </div>
+    </div>
+  </div>
+
+  <body>
+    <script src="main.javascript"></script>
+  </body>
+</html>
