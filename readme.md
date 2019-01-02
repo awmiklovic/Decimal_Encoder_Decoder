@@ -1,6 +1,6 @@
 View Demo: https://codepen.io/awmiklovic/pen/OrxGez
 
-#Encoding Function
+# Encoding Function
 This function needs to accept a signed integer in the 14-bit range [-8192..+8191] and return a 4 character string.
 
 The encoding process is as follows:
@@ -16,5 +16,5 @@ Encoded value:
 
 3. Format the two bytes as a single 4-character hexadecimal string and return it.
 
-#Decoding Function
+# Decoding Function
 Your decoding function should accept two bytes on input, both in the range [0x00..0x7F] and recombine them to return the corresponding integer between [-8192..+8191]
